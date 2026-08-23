@@ -1,0 +1,2006 @@
+✅ Database connection established successfully.
+✅ All models were synchronized successfully.
+✅ Database synced successfully.
+✅ Subjects created
+Class Grade 1 exists
+Class Grade 2 exists
+Class Grade 3 exists
+Class Grade 4 exists
+Class Grade 5 exists
+Class Grade 6 exists
+Class Grade 7 exists
+Class Grade 8 exists
+Class Grade 9 exists
+Class Grade 10 exists
+Class Grade 11 exists
+Class Grade 12 exists
+✅ Sample books created
+✅ Database seeded successfully
+✅ Database seeded.
+🚀 Server running on port 5000
+📚 School Management API
+[0mPOST /api/auth/login [32m200[0m 2652.895 ms - 341[0m
+[0mPOST /api/parents [32m201[0m 132.763 ms - 318[0m
+[0mDELETE /api/parents/2/photo [32m200[0m 179.558 ms - 326[0m
+[0mPUT /api/parents/2 [32m200[0m 189.726 ms - 318[0m
+[0mDELETE /api/parents/2 [32m200[0m 143.210 ms - 56[0m
+[0mGET /api/dashboard/stats [32m200[0m 1014.623 ms - 247[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 1118.929 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 642.360 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 694.572 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 680.166 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 128.426 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 92.315 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 94.428 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 89.477 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 92.043 ms - -[0m
+[0mPUT /api/students/2 [32m200[0m 135.378 ms - 553[0m
+[0mGET /api/students?page=1&limit=10&search= [32m200[0m 89.263 ms - 688[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 745.592 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 136.773 ms - -[0m
+[0mPUT /api/teachers/1 [32m200[0m 89.581 ms - 469[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 93.959 ms - -[0m
+[0mGET /api/parents?limit=100 [32m200[0m 788.735 ms - 393[0m
+[0mGET /api/parents?limit=100 [36m304[0m 134.553 ms - -[0m
+[0mGET /api/classes?limit=100&search= [32m200[0m 140.428 ms - 3370[0m
+[0mGET /api/teachers?limit=100 [32m200[0m 144.299 ms - 559[0m
+[0mGET /api/classes?limit=100&search= [36m304[0m 99.723 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 137.317 ms - -[0m
+[0mGET /api/assignments?limit=100 [32m200[0m 110.519 ms - 87[0m
+[0mGET /api/classes?limit=100 [36m304[0m 107.442 ms - -[0m
+[0mGET /api/subjects?limit=100 [32m200[0m 151.922 ms - 2549[0m
+[0mGET /api/assignments?limit=100 [36m304[0m 91.226 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 368.205 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 382.426 ms - -[0m
+[0mGET /api/staffs?limit=100 [32m200[0m 90.525 ms - 472[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 93.120 ms - -[0m
+[0mPUT /api/staffs/1 [32m200[0m 85.087 ms - 409[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 148.015 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 797.356 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 883.691 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 130.587 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 135.573 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 96.045 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 140.739 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 90.799 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 134.115 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 1870.157 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 130.993 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 95.026 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 138.572 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [32m200[0m 177.851 ms - 2549[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 264.046 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 274.151 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 400.273 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 205.959 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 93.184 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 44.694 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 43.776 ms - 69[0m
+[0mGET /api/classes?limit=100 [36m304[0m 92.534 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 96.896 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 95.512 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 90.438 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 43.019 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 44.595 ms - 69[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 92.912 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 100.935 ms - -[0m
+[0mGET /api/users?limit=100 [32m200[0m 90.046 ms - 1101[0m
+[0mGET /api/users?limit=100 [36m304[0m 88.475 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 661.938 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 47.067 ms - 69[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 235.603 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 318.360 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 407.646 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 412.846 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 372.566 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 340.724 ms - -[0m
+[0mGET /api/assignments?limit=100 [36m304[0m 91.148 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 94.500 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 133.620 ms - -[0m
+[0mGET /api/assignments?limit=100 [36m304[0m 94.569 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 92.737 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 95.157 ms - -[0m
+[0mGET /api/academic-years [32m200[0m 173.276 ms - 414[0m
+[0mGET /api/academic-years [36m304[0m 92.803 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 811.430 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 988.593 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 324.279 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 737.459 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 763.477 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 859.687 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 141.418 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 147.214 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 102.397 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 104.384 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 99.843 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 99.403 ms - -[0m
+[0mPUT /api/students/2 [32m200[0m 137.674 ms - 553[0m
+[0mGET /api/students?page=1&limit=10&search= [32m200[0m 96.214 ms - 688[0m
+[0mGET /api/students/2 [32m200[0m 103.617 ms - 1065[0m
+[0mGET /api/students/2 [36m304[0m 161.481 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 187.901 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 281.827 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 263.892 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 256.515 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 857.550 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 946.366 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 1174.397 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 415.169 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 402.416 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 350.609 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 132.087 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 98.026 ms - -[0m
+[0mPUT /api/teachers/1 [32m200[0m 93.023 ms - 469[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 87.536 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 1392.230 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 1604.401 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 480.673 ms - -[0m
+[0mGET /api/dashboard/recent-activities [32m200[0m 555.732 ms - 1231[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 133.574 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 492.115 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 121.769 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 166.911 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 96.450 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 91.748 ms - -[0m
+[0mPUT /api/students/2 [32m200[0m 132.932 ms - 553[0m
+[0mGET /api/students?page=1&limit=10&search= [32m200[0m 99.859 ms - 688[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 797.456 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 137.780 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 1043.788 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 1129.583 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 128.706 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 189.245 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 148.380 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 150.068 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 87.829 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 89.112 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 753.987 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 135.432 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 136.375 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 150.137 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 181.825 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 128.168 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 131.737 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 136.745 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 49.399 ms - 69[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 94.969 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 46.654 ms - 69[0m
+[0mGET /api/classes?limit=100 [36m304[0m 105.890 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 136.396 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 132.824 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 45.827 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 59.097 ms - 69[0m
+[0mGET /api/fees?limit=100 [36m304[0m 459.013 ms - -[0m
+[0mGET /api/students?limit=100 [32m200[0m 548.997 ms - 689[0m
+[0mGET /api/fees?limit=100 [36m304[0m 374.723 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 354.491 ms - -[0m
+[0mGET /api/fees/summary [36m304[0m 1044.520 ms - -[0m
+[0mGET /api/fees/summary [36m304[0m 343.392 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 94.378 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 98.249 ms - -[0m
+[0mGET /api/fees/payments?limit=100 [36m304[0m 136.615 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 90.974 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 90.396 ms - -[0m
+[0mGET /api/fees/payments?limit=100 [36m304[0m 93.917 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 93.079 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 89.457 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 93.354 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 100.490 ms - -[0m
+[0mGET /api/academic-years [36m304[0m 92.622 ms - -[0m
+[0mGET /api/academic-years [36m304[0m 88.375 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 835.496 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 923.339 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 1014.716 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 404.229 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 382.492 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 334.737 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 45.649 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 42.914 ms - 69[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 91.970 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 95.354 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 85.150 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 89.228 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 46.763 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 44.534 ms - 69[0m
+[0mGET /api/announcements?limit=100 [32m200[0m 209.541 ms - 87[0m
+[0mGET /api/announcements?limit=100 [36m304[0m 137.687 ms - -[0m
+[0mPOST /api/announcements [32m201[0m 694.128 ms - 268[0m
+[0mGET /api/announcements?limit=100 [32m200[0m 135.158 ms - 397[0m
+[0mGET /api/parents?limit=100 [36m304[0m 736.936 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 130.901 ms - -[0m
+[0mPUT /api/parents/1 [32m200[0m 731.346 ms - 316[0m
+[0mGET /api/parents?limit=100 [36m304[0m 144.783 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 946.889 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 1031.951 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 125.607 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 148.623 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 98.194 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 98.076 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 87.931 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 89.751 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 1074.996 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 187.535 ms - -[0m
+[0mGET /api/dashboard/stats [32m200[0m 1419.522 ms - 247[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 1475.257 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 237.194 ms - -[0m
+[0mGET /api/dashboard/recent-activities [32m200[0m 306.765 ms - 1475[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 93.852 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 381.122 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 110.915 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 117.440 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 99.831 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 95.471 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 2039.973 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 303.987 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 2380.332 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 2416.039 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 111.742 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 166.339 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 768.405 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 813.781 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 900.163 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 177.416 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 175.392 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 212.498 ms - -[0m
+[0mPOST /api/auth/login [32m200[0m 982.053 ms - 341[0m
+[0mGET /api/dashboard/stats [32m200[0m 623.799 ms - 247[0m
+[0mGET /api/notifications?limit=5 [32m200[0m 835.869 ms - 101[0m
+[0mGET /api/dashboard/stats [36m304[0m 720.710 ms - -[0m
+[0mGET /api/dashboard/recent-activities [32m200[0m 889.643 ms - 1475[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 375.917 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 1055.202 ms - -[0m
+[0mGET /api/staffs?limit=100 [32m200[0m 95.834 ms - 472[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 88.777 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [32m200[0m 89.581 ms - 688[0m
+[0mGET /api/classes?limit=100 [32m200[0m 92.129 ms - 3370[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 101.890 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 99.596 ms - -[0m
+[0mPUT /api/students/2 [32m200[0m 149.166 ms - 553[0m
+[0mGET /api/students?page=1&limit=10&search= [32m200[0m 93.903 ms - 688[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 939.861 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 987.749 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 1073.733 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 181.444 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 175.924 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 221.553 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 731.281 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 776.228 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 893.564 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 209.309 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 209.141 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 185.808 ms - -[0m
+[0mPOST /api/auth/login [32m200[0m 197.003 ms - 341[0m
+[0mGET /api/dashboard/stats [36m304[0m 187.097 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 189.227 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 174.311 ms - -[0m
+[0mGET /api/dashboard/recent-activities [32m200[0m 216.575 ms - 1475[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 261.125 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 86.476 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 89.912 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 152.357 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 105.211 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 91.659 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [32m200[0m 86.699 ms - 558[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 89.709 ms - -[0m
+[0mGET /api/parents?limit=100 [32m200[0m 89.926 ms - 393[0m
+[0mGET /api/parents?limit=100 [36m304[0m 89.489 ms - -[0m
+[0mGET /api/classes?limit=100&search= [32m200[0m 91.434 ms - 3370[0m
+[0mGET /api/teachers?limit=100 [32m200[0m 91.251 ms - 559[0m
+[0mGET /api/classes?limit=100&search= [36m304[0m 88.999 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 88.673 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 88.649 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [32m200[0m 89.054 ms - 2549[0m
+[0mGET /api/classes?limit=100 [36m304[0m 130.839 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 86.945 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 87.282 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 88.804 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 43.621 ms - 69[0m
+[0mGET /api/classes?limit=100 [36m304[0m 90.674 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 43.843 ms - 69[0m
+[0mGET /api/subjects?limit=100 [32m200[0m 90.281 ms - 2549[0m
+[0mGET /api/classes?limit=100 [36m304[0m 88.942 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 88.918 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 45.387 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 43.229 ms - 69[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 86.674 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 103.036 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 93.341 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 94.891 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 93.576 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 96.501 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 861.527 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 1031.568 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 1084.200 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 263.007 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 172.458 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 225.831 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 907.297 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 975.575 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 90.971 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 134.401 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 89.537 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 92.975 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 876.842 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 922.642 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 1074.328 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 197.475 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 405.658 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 288.589 ms - -[0m
+[0mPUT /api/students/2 [32m200[0m 135.192 ms - 553[0m
+[0mGET /api/students?page=1&limit=10&search= [32m200[0m 93.538 ms - 688[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 89.494 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 85.855 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 85.506 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 87.900 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 128.997 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 171.222 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 218.817 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 174.120 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 176.271 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 172.295 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 91.653 ms - -[0m
+[0mGET /api/classes?limit=100&search= [36m304[0m 92.057 ms - -[0m
+[0mGET /api/classes?limit=100&search= [36m304[0m 91.065 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 92.508 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 44.667 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 47.277 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 43.845 ms - 69[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 85.894 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 88.291 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 43.237 ms - 69[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 86.255 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 92.497 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 86.669 ms - -[0m
+[0mGET /api/assignments?limit=100 [32m200[0m 87.632 ms - 87[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 126.627 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 87.322 ms - -[0m
+[0mGET /api/assignments?limit=100 [36m304[0m 89.144 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 89.908 ms - -[0m
+[0mGET /api/fees?limit=100 [32m200[0m 86.921 ms - 442[0m
+[0mGET /api/students?limit=100 [32m200[0m 88.227 ms - 689[0m
+[0mGET /api/fees?limit=100 [36m304[0m 85.735 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 92.631 ms - -[0m
+[0mGET /api/fees/summary [32m200[0m 254.914 ms - 131[0m
+[0mGET /api/fees?limit=100 [36m304[0m 87.592 ms - -[0m
+[0mGET /api/fees/payments?limit=100 [32m200[0m 86.482 ms - 906[0m
+[0mGET /api/students?limit=100 [36m304[0m 130.424 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 85.765 ms - -[0m
+[0mGET /api/fees/payments?limit=100 [36m304[0m 85.885 ms - -[0m
+[0mGET /api/fees/summary [36m304[0m 295.266 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 124.995 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 86.581 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 85.048 ms - -[0m
+[0mPUT /api/staffs/1 [32m200[0m 90.826 ms - 409[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 87.188 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 746.574 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 136.452 ms - -[0m
+[0mGET /api/students/class/1 [32m200[0m 92.482 ms - 568[0m
+[0mGET /api/attendance/class/1/date/2026-08-23 [32m200[0m 97.650 ms - 26[0m
+[0mPOST /api/attendance [32m201[0m 137.688 ms - 229[0m
+[0mGET /api/classes?limit=100 [36m304[0m 89.645 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 178.847 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 91.108 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 126.532 ms - -[0m
+[0mGET /api/students/class/1 [36m304[0m 93.233 ms - -[0m
+[0mGET /api/attendance/class/1/date/2026-08-23 [32m200[0m 89.345 ms - 352[0m
+[0mGET /api/students/class/2 [32m200[0m 88.178 ms - 26[0m
+[0mGET /api/attendance/class/2/date/2026-08-23 [32m200[0m 95.175 ms - 26[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 88.926 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 88.435 ms - -[0m
+[0mPUT /api/teachers/1 [32m200[0m 97.346 ms - 469[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 89.582 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 86.732 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 87.643 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 172.431 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 270.830 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 223.617 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 172.006 ms - -[0m
+[0mGET /api/dashboard/stats [32m200[0m 398.685 ms - 247[0m
+[0mGET /api/dashboard/stats [36m304[0m 320.672 ms - -[0m
+[0mGET /api/dashboard/recent-activities [32m200[0m 409.520 ms - 1475[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 133.402 ms - -[0m
+[0mGET /api/announcements?limit=100 [32m200[0m 101.197 ms - 397[0m
+[0mGET /api/announcements?limit=100 [36m304[0m 110.398 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 732.832 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 132.280 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 184.449 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 355.647 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 257.414 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 356.357 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 188.910 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 92.236 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 131.464 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 99.636 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 131.024 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 133.181 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 1151.726 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 540.565 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 1751.039 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 183.863 ms - -[0m
+[0mPUT /api/staffs/1 [32m200[0m 140.962 ms - 442[0m
+[0mGET /api/staffs?limit=100 [32m200[0m 88.632 ms - 505[0m
+[0mGET /uploads/photo-1787497251425-859455287.jpg [32m200[0m 4.973 ms - 19876[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 94.885 ms - -[0m
+[0mGET /uploads/photo-1787497251425-859455287.jpg [36m304[0m 7.566 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 136.864 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 87.861 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 126.136 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 89.757 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 92.076 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 108.674 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 89.780 ms - -[0m
+[0mPUT /api/parents/1 [32m200[0m 136.494 ms - 349[0m
+[0mGET /api/parents?limit=100 [32m200[0m 90.398 ms - 426[0m
+[0mGET /uploads/photo-1787497265416-413778382.jpg [32m200[0m 1.232 ms - 17800[0m
+[0mGET /api/classes?limit=100 [36m304[0m 88.304 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 134.898 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 133.159 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 129.756 ms - -[0m
+[0mPUT /api/students/2 [32m200[0m 146.144 ms - 586[0m
+[0mGET /api/students?page=1&limit=10&search= [32m200[0m 91.906 ms - 721[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [32m200[0m 1.291 ms - 19876[0m
+[0mGET /api/dashboard/stats [36m304[0m 181.441 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 176.501 ms - -[0m
+[0mGET /api/dashboard/recent-activities [32m200[0m 218.947 ms - 1508[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 97.617 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 94.069 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 130.634 ms - -[0m
+[0mPUT /api/teachers/1 [32m200[0m 135.130 ms - 500[0m
+[0mGET /api/teachers?page=1&limit=10&search= [32m200[0m 90.050 ms - 589[0m
+[0mGET /uploads/photo-1787497283034-928728627.jpg [32m200[0m 1.244 ms - 17800[0m
+[0mGET /api/classes?limit=100&search= [36m304[0m 91.342 ms - -[0m
+[0mGET /api/teachers?limit=100 [32m200[0m 94.092 ms - 590[0m
+[0mGET /api/classes?limit=100&search= [36m304[0m 94.669 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 91.744 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 88.337 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 88.488 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 131.279 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 86.496 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 92.490 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 92.982 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 91.436 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 88.798 ms - -[0m
+[0mGET /api/students/class/1 [32m200[0m 90.392 ms - 601[0m
+[0mGET /api/attendance/class/1/date/2026-08-23 [32m200[0m 88.955 ms - 383[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 0.350 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 920.132 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 926.969 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 963.130 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 128.152 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 135.632 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 136.907 ms - -[0m
+Update subject error: Error
+    at Query.run (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async PostgresQueryInterface.update (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:355:12)
+    at async model.save (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:2490:35)
+    at async model.update (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:2598:12)
+    at async updateSubject (C:\wamp\www\school_managerment\school_api\controllers\subject.controller.js:108:5) {
+  name: 'SequelizeDatabaseError',
+  parent: error: invalid input syntax for type integer: ""
+      at parseErrorMessage (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:306:11)
+      at Parser.handlePacket (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:143:27)
+      at Parser.parse (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:37:38)
+      at TLSSocket.<anonymous> (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\index.js:12:42)
+      at TLSSocket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:568:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:519:3)
+      at Readable.push (node:internal/streams/readable:399:5)
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:189:23) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $1 = ''",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '615',
+    routine: 'pg_strtoint32_safe',
+    sql: 'UPDATE "subjects" SET "teacher_id"=$1,"class_id"=$2,"updated_at"=$3 WHERE "id" = $4',
+    parameters: [ '', '1', '2026-08-23 15:01:53.080 +00:00', 4 ]
+  },
+  original: error: invalid input syntax for type integer: ""
+      at parseErrorMessage (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:306:11)
+      at Parser.handlePacket (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:143:27)
+      at Parser.parse (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:37:38)
+      at TLSSocket.<anonymous> (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\index.js:12:42)
+      at TLSSocket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:568:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:519:3)
+      at Readable.push (node:internal/streams/readable:399:5)
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:189:23) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $1 = ''",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '615',
+    routine: 'pg_strtoint32_safe',
+    sql: 'UPDATE "subjects" SET "teacher_id"=$1,"class_id"=$2,"updated_at"=$3 WHERE "id" = $4',
+    parameters: [ '', '1', '2026-08-23 15:01:53.080 +00:00', 4 ]
+  },
+  sql: 'UPDATE "subjects" SET "teacher_id"=$1,"class_id"=$2,"updated_at"=$3 WHERE "id" = $4',
+  parameters: [ '', '1', '2026-08-23 15:01:53.080 +00:00', 4 ]
+}
+[0mPUT /api/subjects/4 [31m500[0m 136.237 ms - 80[0m
+[0mPUT /api/subjects/4 [32m200[0m 134.329 ms - 234[0m
+[0mGET /api/subjects?limit=100&search= [32m200[0m 215.755 ms - 2618[0m
+[0mGET /api/teachers?limit=100 [32m200[0m 300.443 ms - 628[0m
+[0mGET /api/classes?limit=100 [36m304[0m 390.912 ms - -[0m
+[0mGET /api/subjects?limit=100 [32m200[0m 91.881 ms - 2618[0m
+[0mGET /api/timetables [32m200[0m 96.866 ms - 416[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 133.995 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 169.307 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 116.217 ms - -[0m
+[0mGET /api/timetables [36m304[0m 128.108 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 88.292 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 111.558 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 103.382 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 102.955 ms - -[0m
+[0mGET /api/students/class/1 [36m304[0m 92.012 ms - -[0m
+[0mGET /api/attendance/class/1/date/2026-08-23 [36m304[0m 88.823 ms - -[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 0.358 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 43.979 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 45.110 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 45.607 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 61.151 ms - 69[0m
+[0mGET /api/classes?limit=100 [36m304[0m 157.452 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 200.924 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 135.479 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 134.413 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 660.852 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 43.408 ms - 69[0m
+[0mGET /api/assignments?limit=100 [36m304[0m 222.592 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 309.526 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 390.333 ms - -[0m
+[0mGET /api/assignments?limit=100 [36m304[0m 388.438 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 349.524 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 308.678 ms - -[0m
+[0mPOST /api/assignments [32m201[0m 857.997 ms - 247[0m
+[0mGET /api/assignments?limit=100 [32m200[0m 218.504 ms - 465[0m
+[0mGET /api/classes?limit=100 [36m304[0m 304.524 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 391.315 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 92.103 ms - -[0m
+[0mGET /api/students?limit=100 [32m200[0m 98.532 ms - 722[0m
+[0mGET /api/fees?limit=100 [36m304[0m 87.977 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 88.091 ms - -[0m
+[0mGET /api/fees/summary [36m304[0m 257.939 ms - -[0m
+[0mGET /api/fees/summary [36m304[0m 257.456 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 88.567 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 90.046 ms - -[0m
+[0mGET /api/fees/payments?limit=100 [36m304[0m 129.513 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 88.114 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 97.633 ms - -[0m
+[0mGET /api/fees/payments?limit=100 [36m304[0m 89.141 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 90.928 ms - -[0m
+[0mGET /api/library/books?limit=100 [32m200[0m 91.196 ms - 1301[0m
+[0mGET /api/library/transactions?limit=100 [32m200[0m 130.955 ms - 87[0m
+[0mGET /api/library/books?limit=100 [36m304[0m 89.540 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 91.187 ms - -[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 89.349 ms - -[0m
+[0mGET /api/announcements?limit=100 [36m304[0m 89.012 ms - -[0m
+[0mGET /api/announcements?limit=100 [36m304[0m 88.721 ms - -[0m
+[0mGET /api/library/books?limit=100 [36m304[0m 87.701 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 88.805 ms - -[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 130.341 ms - -[0m
+[0mGET /api/library/books?limit=100 [36m304[0m 93.614 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 96.362 ms - -[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 90.060 ms - -[0m
+[0mPUT /api/library/books/10 [32m200[0m 131.619 ms - 352[0m
+[0mGET /api/library/books?limit=100 [32m200[0m 85.119 ms - 1327[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 85.662 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 124.334 ms - -[0m
+[0mGET /uploads/photo-1787497389021-81618138.jpg [32m200[0m 1.164 ms - 17800[0m
+[0mPUT /api/library/books/4 [32m200[0m 158.461 ms - 360[0m
+[0mGET /api/library/books?limit=100 [32m200[0m 87.391 ms - 1353[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 88.109 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 131.390 ms - -[0m
+[0mGET /uploads/photo-1787497396273-69721570.jpg [32m200[0m 1.590 ms - 19863[0m
+[0mPUT /api/library/books/1 [32m200[0m 132.495 ms - 358[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 126.777 ms - -[0m
+[0mGET /api/library/books?limit=100 [32m200[0m 128.646 ms - 1379[0m
+[0mGET /api/students?limit=100 [36m304[0m 226.874 ms - -[0m
+[0mGET /uploads/photo-1787497404045-26309375.jpg [32m200[0m 1.546 ms - 23417[0m
+[0mPUT /api/library/books/2 [32m200[0m 131.749 ms - 350[0m
+[0mGET /api/library/books?limit=100 [32m200[0m 87.411 ms - 1406[0m
+[0mGET /api/students?limit=100 [36m304[0m 89.982 ms - -[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 129.733 ms - -[0m
+[0mGET /uploads/photo-1787497410323-762573504.jpg [32m200[0m 1.323 ms - 19876[0m
+[0mGET /api/announcements?limit=100 [36m304[0m 85.263 ms - -[0m
+[0mGET /api/announcements?limit=100 [36m304[0m 84.914 ms - -[0m
+[0mGET /api/academic-years [32m200[0m 85.417 ms - 414[0m
+[0mGET /api/academic-years [36m304[0m 86.896 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 89.674 ms - -[0m
+[0mGET /uploads/photo-1787497251425-859455287.jpg [36m304[0m 0.309 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 87.759 ms - -[0m
+[0mGET /api/academic-years [36m304[0m 105.093 ms - -[0m
+[0mGET /api/academic-years [36m304[0m 87.668 ms - -[0m
+[0mGET /api/users?limit=100 [32m200[0m 210.001 ms - 1101[0m
+[0mGET /api/users?limit=100 [36m304[0m 98.207 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 102.501 ms - -[0m
+[0mGET /api/reports/students [32m200[0m 134.785 ms - 632[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 2.915 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 127.094 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 104.937 ms - -[0m
+[0mGET /api/reports/students?class_id=1 [32m200[0m 121.212 ms - 632[0m
+[0mGET /api/reports/students?class_id=2 [32m200[0m 84.588 ms - 26[0m
+[0mGET /api/reports/teachers?class_id=2 [32m200[0m 99.491 ms - 567[0m
+[0mGET /uploads/photo-1787497283034-928728627.jpg [36m304[0m 0.285 ms - -[0m
+[0mGET /api/reports/fees?class_id=2 [32m200[0m 99.189 ms - 463[0m
+[0mGET /api/library/books?limit=100 [36m304[0m 88.248 ms - -[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 91.026 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 129.057 ms - -[0m
+[0mGET /uploads/photo-1787497389021-81618138.jpg [36m304[0m 0.569 ms - -[0m
+[0mGET /uploads/photo-1787497396273-69721570.jpg [36m304[0m 0.708 ms - -[0m
+[0mGET /uploads/photo-1787497404045-26309375.jpg [36m304[0m 0.810 ms - -[0m
+[0mGET /uploads/photo-1787497410323-762573504.jpg [36m304[0m 0.203 ms - -[0m
+[0mGET /api/library/books?limit=100 [36m304[0m 88.477 ms - -[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 87.027 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 89.112 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 44.193 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 44.847 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 46.428 ms - 69[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 93.557 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 47.692 ms - 69[0m
+[0mGET /api/classes?limit=100 [36m304[0m 102.750 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 93.128 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 90.530 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 43.656 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 43.431 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 43.393 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 43.457 ms - 69[0m
+[0mGET /api/classes?limit=100 [36m304[0m 89.415 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 89.447 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 90.201 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 92.475 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 45.277 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 42.940 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 45.100 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 52.621 ms - 69[0m
+[0mGET /api/classes?limit=100 [36m304[0m 100.003 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 99.874 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 93.088 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 95.502 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 88.654 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 95.339 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 51.817 ms - 69[0m
+[0mGET /api/classes?limit=100 [36m304[0m 113.134 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 49.707 ms - 69[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 113.267 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 118.114 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 120.781 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 86.255 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 72.229 ms - 69[0m
+[0mGET /api/dashboard/stats [36m304[0m 228.434 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 136.500 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 281.728 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 89.337 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 99.267 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 99.179 ms - -[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 0.394 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 94.750 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 96.406 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [32m200[0m 92.906 ms - 627[0m
+[0mGET /uploads/photo-1787497283034-928728627.jpg [36m304[0m 0.281 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 88.013 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 98.891 ms - -[0m
+[0mGET /uploads/photo-1787497265416-413778382.jpg [36m304[0m 0.254 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 112.992 ms - -[0m
+[0mGET /api/classes?limit=100&search= [36m304[0m 114.173 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 112.733 ms - -[0m
+[0mGET /api/classes?limit=100&search= [36m304[0m 333.161 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 354.148 ms - -[0m
+Update class error: Error
+    at Query.run (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async PostgresQueryInterface.update (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:355:12)
+    at async model.save (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:2490:35)
+    at async model.update (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:2598:12)
+    at async updateClass (C:\wamp\www\school_managerment\school_api\controllers\class.controller.js:112:5) {
+  name: 'SequelizeDatabaseError',
+  parent: error: invalid input syntax for type integer: ""
+      at parseErrorMessage (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:306:11)
+      at Parser.handlePacket (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:143:27)
+      at Parser.parse (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:37:38)
+      at TLSSocket.<anonymous> (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\index.js:12:42)
+      at TLSSocket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:568:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:519:3)
+      at Readable.push (node:internal/streams/readable:399:5)
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:189:23) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $1 = ''",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '615',
+    routine: 'pg_strtoint32_safe',
+    sql: 'UPDATE "classes" SET "class_teacher_id"=$1,"room"=$2,"description"=$3,"updated_at"=$4 WHERE "id" = $5',
+    parameters: [ '', '101', '', '2026-08-23 15:04:47.417 +00:00', 1 ]
+  },
+  original: error: invalid input syntax for type integer: ""
+      at parseErrorMessage (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:306:11)
+      at Parser.handlePacket (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:143:27)
+      at Parser.parse (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:37:38)
+      at TLSSocket.<anonymous> (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\index.js:12:42)
+      at TLSSocket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:568:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:519:3)
+      at Readable.push (node:internal/streams/readable:399:5)
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:189:23) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $1 = ''",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '615',
+    routine: 'pg_strtoint32_safe',
+    sql: 'UPDATE "classes" SET "class_teacher_id"=$1,"room"=$2,"description"=$3,"updated_at"=$4 WHERE "id" = $5',
+    parameters: [ '', '101', '', '2026-08-23 15:04:47.417 +00:00', 1 ]
+  },
+  sql: 'UPDATE "classes" SET "class_teacher_id"=$1,"room"=$2,"description"=$3,"updated_at"=$4 WHERE "id" = $5',
+  parameters: [ '', '101', '', '2026-08-23 15:04:47.417 +00:00', 1 ]
+}
+[0mPUT /api/classes/1 [31m500[0m 1873.854 ms - 80[0m
+Update class error: Error
+    at Query.run (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async PostgresQueryInterface.update (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:355:12)
+    at async model.save (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:2490:35)
+    at async model.update (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:2598:12)
+    at async updateClass (C:\wamp\www\school_managerment\school_api\controllers\class.controller.js:112:5) {
+  name: 'SequelizeDatabaseError',
+  parent: error: invalid input syntax for type integer: ""
+      at parseErrorMessage (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:306:11)
+      at Parser.handlePacket (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:143:27)
+      at Parser.parse (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:37:38)
+      at TLSSocket.<anonymous> (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\index.js:12:42)
+      at TLSSocket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:568:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:519:3)
+      at Readable.push (node:internal/streams/readable:399:5)
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:189:23) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $1 = ''",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '615',
+    routine: 'pg_strtoint32_safe',
+    sql: 'UPDATE "classes" SET "class_teacher_id"=$1,"room"=$2,"description"=$3,"updated_at"=$4 WHERE "id" = $5',
+    parameters: [ '', '101', 'dd', '2026-08-23 15:04:52.257 +00:00', 1 ]
+  },
+  original: error: invalid input syntax for type integer: ""
+      at parseErrorMessage (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:306:11)
+      at Parser.handlePacket (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:143:27)
+      at Parser.parse (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:37:38)
+      at TLSSocket.<anonymous> (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\index.js:12:42)
+      at TLSSocket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:568:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:519:3)
+      at Readable.push (node:internal/streams/readable:399:5)
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:189:23) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $1 = ''",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '615',
+    routine: 'pg_strtoint32_safe',
+    sql: 'UPDATE "classes" SET "class_teacher_id"=$1,"room"=$2,"description"=$3,"updated_at"=$4 WHERE "id" = $5',
+    parameters: [ '', '101', 'dd', '2026-08-23 15:04:52.257 +00:00', 1 ]
+  },
+  sql: 'UPDATE "classes" SET "class_teacher_id"=$1,"room"=$2,"description"=$3,"updated_at"=$4 WHERE "id" = $5',
+  parameters: [ '', '101', 'dd', '2026-08-23 15:04:52.257 +00:00', 1 ]
+}
+[0mPUT /api/classes/1 [31m500[0m 131.548 ms - 80[0m
+[0mPUT /api/classes/1 [32m200[0m 136.961 ms - 249[0m
+[0mGET /api/classes?limit=100&search= [32m200[0m 138.692 ms - 3410[0m
+[0mPUT /api/classes/10 [32m200[0m 736.630 ms - 249[0m
+[0mGET /api/classes?limit=100&search= [32m200[0m 132.784 ms - 3447[0m
+[0mGET /api/students?limit=100 [36m304[0m 131.683 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 176.447 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 171.648 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 170.347 ms - -[0m
+[0mGET /api/fees/summary [36m304[0m 462.322 ms - -[0m
+[0mGET /api/fees/summary [36m304[0m 320.222 ms - -[0m
+[0mGET /api/library/books?limit=100 [36m304[0m 97.688 ms - -[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 101.560 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 136.395 ms - -[0m
+[0mGET /uploads/photo-1787497389021-81618138.jpg [36m304[0m 0.419 ms - -[0m
+[0mGET /uploads/photo-1787497396273-69721570.jpg [36m304[0m 0.406 ms - -[0m
+[0mGET /uploads/photo-1787497404045-26309375.jpg [36m304[0m 0.420 ms - -[0m
+[0mGET /uploads/photo-1787497410323-762573504.jpg [36m304[0m 0.197 ms - -[0m
+[0mGET /api/library/books?limit=100 [36m304[0m 84.204 ms - -[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 102.412 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 89.779 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 87.113 ms - -[0m
+[0mGET /uploads/photo-1787497251425-859455287.jpg [36m304[0m 0.230 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 84.519 ms - -[0m
+[0mGET /api/academic-years [36m304[0m 86.885 ms - -[0m
+[0mGET /api/academic-years [36m304[0m 84.602 ms - -[0m
+[0mGET /api/announcements?limit=100 [36m304[0m 89.952 ms - -[0m
+[0mGET /api/announcements?limit=100 [36m304[0m 85.606 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 87.747 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 86.256 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 94.253 ms - -[0m
+[0mGET /api/classes?limit=100 [32m200[0m 99.267 ms - 3447[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 0.267 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 98.241 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 100.993 ms - -[0m
+[0mGET /api/reports/academic [32m200[0m 88.176 ms - 26[0m
+[0mGET /api/reports/fees [32m200[0m 125.651 ms - 463[0m
+[0mGET /api/reports/fees [36m304[0m 97.000 ms - -[0m
+[0mGET /api/reports/fees [36m304[0m 90.763 ms - -[0m
+[0mGET /api/reports/academic [36m304[0m 95.859 ms - -[0m
+[0mGET /api/reports/teachers [32m200[0m 90.501 ms - 645[0m
+[0mGET /uploads/photo-1787497283034-928728627.jpg [36m304[0m 0.298 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 99.678 ms - -[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 0.297 ms - -[0m
+[0mGET /api/reports/fees [36m304[0m 88.051 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 130.572 ms - -[0m
+[0mGET /uploads/photo-1787497251425-859455287.jpg [36m304[0m 0.892 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 131.388 ms - -[0m
+[0mGET /api/library/books?limit=100 [36m304[0m 227.610 ms - -[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 311.292 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 398.918 ms - -[0m
+[0mGET /uploads/photo-1787497389021-81618138.jpg [36m304[0m 0.487 ms - -[0m
+[0mGET /uploads/photo-1787497396273-69721570.jpg [36m304[0m 0.457 ms - -[0m
+[0mGET /uploads/photo-1787497404045-26309375.jpg [36m304[0m 0.487 ms - -[0m
+[0mGET /uploads/photo-1787497410323-762573504.jpg [36m304[0m 0.170 ms - -[0m
+[0mGET /api/library/books?limit=100 [36m304[0m 316.481 ms - -[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 290.913 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 213.194 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 165.877 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 87.181 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 89.562 ms - -[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 0.605 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 96.771 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 86.351 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 90.270 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 89.706 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 94.003 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 89.678 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 92.683 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 184.889 ms - -[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 0.309 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 276.294 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 501.061 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 361.228 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 354.300 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 238.183 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 115.491 ms - -[0m
+[0mGET /api/reports/academic [36m304[0m 98.098 ms - -[0m
+[0mGET /api/reports/teachers [36m304[0m 108.565 ms - -[0m
+[0mGET /uploads/photo-1787497283034-928728627.jpg [36m304[0m 0.451 ms - -[0m
+[0mGET /api/reports/fees [36m304[0m 95.292 ms - -[0m
+[0mGET /api/reports/fees [36m304[0m 87.680 ms - -[0m
+[0mGET /api/reports/fees [36m304[0m 87.915 ms - -[0m
+[0mGET /api/reports/fees [36m304[0m 89.680 ms - -[0m
+[0mGET /api/reports/fees [36m304[0m 94.695 ms - -[0m
+[0mGET /api/assignments?limit=100 [36m304[0m 264.128 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 380.374 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 467.423 ms - -[0m
+[0mGET /api/assignments?limit=100 [36m304[0m 566.130 ms - -[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 457.652 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 502.241 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 558.544 ms - -[0m
+[0mGET /api/library/books?limit=100 [36m304[0m 560.458 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 650.130 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 142.837 ms - -[0m
+[0mGET /api/fees/payments?limit=100 [36m304[0m 295.276 ms - -[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 155.671 ms - -[0m
+[0mGET /api/library/books?limit=100 [36m304[0m 140.100 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 142.068 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 142.137 ms - -[0m
+[0mGET /api/fees/payments?limit=100 [36m304[0m 115.836 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 88.836 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 89.151 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 89.801 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 97.717 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 86.776 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 85.181 ms - -[0m
+[0mGET /api/fees/summary [36m304[0m 295.851 ms - -[0m
+[0mGET /api/fees/summary [36m304[0m 274.510 ms - -[0m
+[0mGET /api/fees/payments?limit=100 [36m304[0m 87.913 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 91.864 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 128.596 ms - -[0m
+[0mGET /api/fees/payments?limit=100 [36m304[0m 86.883 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 86.782 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 92.079 ms - -[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 156.354 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 158.911 ms - -[0m
+[0mGET /api/library/books?limit=100 [36m304[0m 158.065 ms - -[0m
+[0mGET /uploads/photo-1787497389021-81618138.jpg [36m304[0m 0.438 ms - -[0m
+[0mGET /uploads/photo-1787497396273-69721570.jpg [36m304[0m 0.445 ms - -[0m
+[0mGET /uploads/photo-1787497404045-26309375.jpg [36m304[0m 0.498 ms - -[0m
+[0mGET /uploads/photo-1787497410323-762573504.jpg [36m304[0m 0.266 ms - -[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 200.190 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 308.222 ms - -[0m
+[0mGET /api/library/books?limit=100 [36m304[0m 307.143 ms - -[0m
+[0mGET /uploads/photo-1787497389021-81618138.jpg [36m304[0m 0.395 ms - -[0m
+[0mGET /uploads/photo-1787497396273-69721570.jpg [36m304[0m 0.418 ms - -[0m
+[0mGET /uploads/photo-1787497404045-26309375.jpg [36m304[0m 0.477 ms - -[0m
+[0mGET /uploads/photo-1787497410323-762573504.jpg [36m304[0m 0.497 ms - -[0m
+MulterError: File too large
+    at abortWithCode (C:\wamp\www\school_managerment\school_api\node_modules\multer\lib\make-middleware.js:73:22)
+    at FileStream.<anonymous> (C:\wamp\www\school_managerment\school_api\node_modules\multer\lib\make-middleware.js:136:11)
+    at FileStream.emit (node:events:509:20)
+    at SBMH.ssCb [as _cb] (C:\wamp\www\school_managerment\school_api\node_modules\busboy\lib\types\multipart.js:479:32)
+    at feed (C:\wamp\www\school_managerment\school_api\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (C:\wamp\www\school_managerment\school_api\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\wamp\www\school_managerment\school_api\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:569:12)
+    at _write (node:internal/streams/writable:498:10)
+    at Writable.write (node:internal/streams/writable:507:10)
+[0mPOST /api/library/books [31m500[0m 1850.356 ms - 39[0m
+[0mPOST /api/library/books [32m201[0m 142.353 ms - 335[0m
+[0mGET /api/library/books?limit=100 [32m200[0m 217.281 ms - 1718[0m
+[0mGET /api/library/transactions?limit=100 [36m304[0m 302.329 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 389.572 ms - -[0m
+[0mGET /uploads/photo-1787497652221-871745770.jpg [32m200[0m 1.401 ms - 19876[0m
+[0mPOST /api/library/transactions [32m201[0m 1164.113 ms - 262[0m
+[0mGET /api/library/books?limit=100 [32m200[0m 224.995 ms - 1718[0m
+[0mGET /api/library/transactions?limit=100 [32m200[0m 310.082 ms - 497[0m
+[0mGET /api/students?limit=100 [36m304[0m 395.391 ms - -[0m
+[0mGET /uploads/photo-1787497389021-81618138.jpg [36m304[0m 0.599 ms - -[0m
+[0mGET /uploads/photo-1787497396273-69721570.jpg [36m304[0m 0.573 ms - -[0m
+[0mGET /uploads/photo-1787497404045-26309375.jpg [36m304[0m 0.561 ms - -[0m
+[0mGET /uploads/photo-1787497410323-762573504.jpg [36m304[0m 0.763 ms - -[0m
+[0mGET /uploads/photo-1787497652221-871745770.jpg [36m304[0m 0.240 ms - -[0m
+[0mGET /uploads/photo-1787497389021-81618138.jpg [36m304[0m 1.551 ms - -[0m
+[0mGET /uploads/photo-1787497396273-69721570.jpg [36m304[0m 1.512 ms - -[0m
+[0mGET /uploads/photo-1787497404045-26309375.jpg [36m304[0m 1.498 ms - -[0m
+[0mGET /uploads/photo-1787497410323-762573504.jpg [36m304[0m 1.573 ms - -[0m
+[0mGET /uploads/photo-1787497652221-871745770.jpg [36m304[0m 1.607 ms - -[0m
+[0mPUT /api/library/transactions/1/return [32m200[0m 851.775 ms - 267[0m
+[0mGET /api/library/books?limit=100 [32m200[0m 222.874 ms - 1718[0m
+[0mGET /api/library/transactions?limit=100 [32m200[0m 400.891 ms - 507[0m
+[0mGET /api/students?limit=100 [36m304[0m 575.109 ms - -[0m
+[0mGET /uploads/photo-1787497389021-81618138.jpg [36m304[0m 0.686 ms - -[0m
+[0mGET /uploads/photo-1787497396273-69721570.jpg [36m304[0m 0.643 ms - -[0m
+[0mGET /uploads/photo-1787497404045-26309375.jpg [36m304[0m 0.621 ms - -[0m
+[0mGET /uploads/photo-1787497410323-762573504.jpg [36m304[0m 0.898 ms - -[0m
+[0mGET /uploads/photo-1787497652221-871745770.jpg [36m304[0m 0.286 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 198.493 ms - -[0m
+[0mGET /api/fees/payments?limit=100 [36m304[0m 206.276 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 95.105 ms - -[0m
+[0mGET /api/fees/payments?limit=100 [36m304[0m 96.724 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 371.636 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 96.974 ms - -[0m
+[0mGET /api/announcements?limit=100 [36m304[0m 113.056 ms - -[0m
+[0mGET /api/announcements?limit=100 [36m304[0m 112.598 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 98.121 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 94.698 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 92.395 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 94.189 ms - -[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 0.289 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 97.348 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 97.180 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 183.754 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 188.539 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 236.548 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 92.580 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 91.288 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 95.465 ms - -[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 0.282 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 95.799 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 93.304 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [32m200[0m 90.345 ms - 705[0m
+[0mGET /uploads/photo-1787497283034-928728627.jpg [36m304[0m 0.347 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 88.643 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 88.144 ms - -[0m
+[0mGET /uploads/photo-1787497265416-413778382.jpg [36m304[0m 0.476 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 93.290 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 94.643 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 99.710 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 99.287 ms - -[0m
+[0mGET /uploads/photo-1787497265416-413778382.jpg [36m304[0m 0.255 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 97.263 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 141.792 ms - -[0m
+[0mGET /api/teachers?limit=100 [32m200[0m 181.248 ms - 706[0m
+[0mGET /api/classes?limit=100 [36m304[0m 228.716 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 174.601 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 184.421 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 185.755 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 85.557 ms - -[0m
+[0mGET /api/timetables [36m304[0m 102.008 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 109.046 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 132.049 ms - -[0m
+[0mGET /api/timetables [36m304[0m 102.740 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 106.195 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 135.022 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 119.293 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 176.096 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 171.664 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 215.874 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 125.433 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 126.759 ms - -[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 0.314 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 95.787 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 88.259 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 125.492 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 87.159 ms - -[0m
+[0mGET /uploads/photo-1787497283034-928728627.jpg [36m304[0m 0.252 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 86.725 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 85.908 ms - -[0m
+[0mGET /api/classes?limit=100&search= [36m304[0m 92.104 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 87.769 ms - -[0m
+[0mGET /api/classes?limit=100&search= [36m304[0m 88.280 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 1470.721 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 484.064 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 534.392 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 136.116 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 56.972 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 52.022 ms - 69[0m
+[0mGET /api/classes?limit=100 [36m304[0m 103.327 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 90.239 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 54.777 ms - 69[0m
+[0mGET /api/classes?limit=100 [36m304[0m 96.079 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 105.280 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 46.605 ms - 69[0m
+[0mGET /api/classes?limit=100 [36m304[0m 87.676 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 91.652 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 652.013 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 63.231 ms - 69[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 140.665 ms - -[0m
+[0mGET /uploads/photo-1787497283034-928728627.jpg [36m304[0m 0.666 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 140.799 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 136.199 ms - -[0m
+[0mGET /uploads/photo-1787497265416-413778382.jpg [36m304[0m 0.355 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 231.138 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 174.619 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 219.129 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 265.068 ms - -[0m
+[0mGET /api/subjects?limit=100&search= [36m304[0m 194.059 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 185.944 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 181.350 ms - -[0m
+Update subject error: Error
+    at Query.run (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\dialects\postgres\query.js:50:25)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async PostgresQueryInterface.update (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\dialects\abstract\query-interface.js:355:12)
+    at async model.save (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:2490:35)
+    at async model.update (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:2598:12)
+    at async updateSubject (C:\wamp\www\school_managerment\school_api\controllers\subject.controller.js:108:5) {
+  name: 'SequelizeDatabaseError',
+  parent: error: invalid input syntax for type integer: ""
+      at parseErrorMessage (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:306:11)
+      at Parser.handlePacket (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:143:27)
+      at Parser.parse (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:37:38)
+      at TLSSocket.<anonymous> (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\index.js:12:42)
+      at TLSSocket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:568:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:519:3)
+      at Readable.push (node:internal/streams/readable:399:5)
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:189:23) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $2 = ''",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '615',
+    routine: 'pg_strtoint32_safe',
+    sql: 'UPDATE "subjects" SET "name"=$1,"teacher_id"=$2,"class_id"=$3,"updated_at"=$4 WHERE "id" = $5',
+    parameters: [
+      'Computer of Science',
+      '',
+      '',
+      '2026-08-23 15:10:50.044 +00:00',
+      9
+    ]
+  },
+  original: error: invalid input syntax for type integer: ""
+      at parseErrorMessage (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:306:11)
+      at Parser.handlePacket (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:143:27)
+      at Parser.parse (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\parser.js:37:38)
+      at TLSSocket.<anonymous> (C:\wamp\www\school_managerment\school_api\node_modules\pg-protocol\dist\index.js:12:42)
+      at TLSSocket.emit (node:events:509:20)
+      at addChunk (node:internal/streams/readable:568:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:519:3)
+      at Readable.push (node:internal/streams/readable:399:5)
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:189:23) {
+    length: 140,
+    severity: 'ERROR',
+    code: '22P02',
+    detail: undefined,
+    hint: undefined,
+    position: undefined,
+    internalPosition: undefined,
+    internalQuery: undefined,
+    where: "unnamed portal parameter $2 = ''",
+    schema: undefined,
+    table: undefined,
+    column: undefined,
+    dataType: undefined,
+    constraint: undefined,
+    file: 'numutils.c',
+    line: '615',
+    routine: 'pg_strtoint32_safe',
+    sql: 'UPDATE "subjects" SET "name"=$1,"teacher_id"=$2,"class_id"=$3,"updated_at"=$4 WHERE "id" = $5',
+    parameters: [
+      'Computer of Science',
+      '',
+      '',
+      '2026-08-23 15:10:50.044 +00:00',
+      9
+    ]
+  },
+  sql: 'UPDATE "subjects" SET "name"=$1,"teacher_id"=$2,"class_id"=$3,"updated_at"=$4 WHERE "id" = $5',
+  parameters: [
+    'Computer of Science',
+    '',
+    '',
+    '2026-08-23 15:10:50.044 +00:00',
+    9
+  ]
+}
+[0mPUT /api/subjects/9 [31m500[0m 1967.592 ms - 80[0m
+[0mGET /api/parents?limit=100 [36m304[0m 894.372 ms - -[0m
+[0mGET /uploads/photo-1787497265416-413778382.jpg [36m304[0m 0.427 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 140.788 ms - -[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.292 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.141 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.101 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.241 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.140 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.164 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.289 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.206 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.249 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.191 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.136 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.198 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.192 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.135 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.168 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.134 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.103 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.210 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.152 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.124 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.116 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.141 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.129 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.129 ms - 47[0m
+[0mGET /api/parents?limit=100 [36m304[0m 1888.587 ms - -[0m
+[0mGET /uploads/photo-1787497265416-413778382.jpg [36m304[0m 0.325 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 1975.371 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 130.061 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 165.503 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 99.268 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 94.657 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 166.540 ms - -[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 0.578 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 261.541 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 97.686 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 94.915 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 114.108 ms - -[0m
+[0mGET /uploads/photo-1787497283034-928728627.jpg [36m304[0m 0.396 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 95.470 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 90.205 ms - -[0m
+[0mGET /uploads/photo-1787497265416-413778382.jpg [36m304[0m 0.306 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 94.453 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 44.099 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100 [31m500[0m 43.974 ms - 69[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 51.435 ms - 69[0m
+[0mGET /api/classes?limit=100 [36m304[0m 93.910 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 95.065 ms - -[0m
+[0mGET /api/subjects?limit=100 [36m304[0m 92.051 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 95.444 ms - -[0m
+Get exams error: EagerLoadingError [SequelizeEagerLoadingError]: Class is not associated to Exam!
+    at Exam._getIncludedAssociation (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:565:13)
+    at Exam._validateIncludedElement (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:502:53)
+    at C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:421:37
+    at Array.map (<anonymous>)
+    at Exam._validateIncludedElements (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:417:39)
+    at Exam.aggregate (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1252:12)
+    at Exam.count (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1306:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Promise.all (index 0)
+    at async Exam.findAndCountAll (C:\wamp\www\school_managerment\school_api\node_modules\sequelize\lib\model.js:1322:27)
+[0mGET /api/exams?limit=100&search= [31m500[0m 325.577 ms - 69[0m
+[0mGET /api/students?limit=100 [36m304[0m 96.952 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 99.257 ms - -[0m
+[0mGET /api/fees/summary [36m304[0m 291.309 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 384.236 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 107.899 ms - -[0m
+[0mGET /api/fees/summary [36m304[0m 426.759 ms - -[0m
+[0mGET /api/fees/payments?limit=100 [36m304[0m 131.683 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 181.720 ms - -[0m
+[0mGET /api/fees/payments?limit=100 [36m304[0m 100.998 ms - -[0m
+[0mGET /api/students?limit=100 [36m304[0m 99.724 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 398.759 ms - -[0m
+[0mGET /api/fees?limit=100 [36m304[0m 377.480 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 186.517 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 237.008 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 373.438 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 98.936 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 872.313 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 193.359 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 156.311 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 95.479 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 89.209 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 95.751 ms - -[0m
+[0mGET /uploads/photo-1787497265416-413778382.jpg [36m304[0m 0.279 ms - -[0m
+[0mGET /api/parents?limit=100 [36m304[0m 88.938 ms - -[0m
+[0mGET /api/classes?limit=100&search= [36m304[0m 135.840 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 175.252 ms - -[0m
+[0mGET /api/classes?limit=100&search= [36m304[0m 108.504 ms - -[0m
+[0mGET /api/teachers?limit=100 [36m304[0m 124.454 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 229.436 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 229.962 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 313.879 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 103.696 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 109.608 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 112.659 ms - -[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 0.421 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 94.714 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 110.492 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 95.594 ms - -[0m
+[0mGET /uploads/photo-1787497283034-928728627.jpg [36m304[0m 0.397 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 93.738 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 403.981 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 183.023 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 225.873 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 368.888 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 100.952 ms - -[0m
+[0mGET /uploads/photo-1787497283034-928728627.jpg [36m304[0m 0.814 ms - -[0m
+[0mGET /api/teachers?page=1&limit=10&search= [36m304[0m 122.156 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 375.290 ms - -[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 0.295 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 91.579 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 517.410 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 372.876 ms - -[0m
+[0mGET /api/students/2 [32m200[0m 98.543 ms - 1096[0m
+[0mGET /api/students/2 [36m304[0m 109.336 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 91.028 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 140.305 ms - -[0m
+[0mGET /api/students?page=1&limit=10&search= [36m304[0m 106.813 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 98.200 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 186.163 ms - -[0m
+[0mGET /api/dashboard/stats [36m304[0m 184.636 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 226.961 ms - -[0m
+[0mGET /api/dashboard/recent-activities [36m304[0m 102.168 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 90.284 ms - -[0m
+[0mGET /uploads/photo-1787497251425-859455287.jpg [36m304[0m 0.249 ms - -[0m
+[0mGET /api/staffs?limit=100 [36m304[0m 98.502 ms - -[0m
+[0mGET /api/academic-years [36m304[0m 98.870 ms - -[0m
+[0mGET /api/academic-years [36m304[0m 86.671 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 89.079 ms - -[0m
+[0mGET /api/users?limit=100 [36m304[0m 88.890 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 88.110 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 92.515 ms - -[0m
+[0mGET /uploads/photo-1787497274440-236613787.jpg [36m304[0m 0.239 ms - -[0m
+[0mGET /api/reports/students [36m304[0m 92.765 ms - -[0m
+[0mGET /api/classes?limit=100 [36m304[0m 93.104 ms - -[0m
+📦 Starting data export...
+✅ Export complete: 46 total records
+[0mGET /api/backup/export [32m200[0m 238.539 ms - 12913[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.282 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.150 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.117 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.243 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.160 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.304 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.196 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.133 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.142 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.347 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.265 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.228 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.522 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.371 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.239 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.267 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.216 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.226 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.313 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.427 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.289 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.170 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.072 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.061 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.810 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.317 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 1.108 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.182 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.147 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.132 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.152 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.215 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.146 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.272 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.255 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.199 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.200 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.135 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.120 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.157 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.091 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.088 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.435 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.106 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.069 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.142 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.087 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.114 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.195 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.089 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.188 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.314 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.163 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.164 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.169 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.150 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.142 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.188 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.175 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.148 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.138 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.122 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.097 ms - 47[0m
+[0mGET /api/classes?limit=100 [33m401[0m 0.150 ms - 47[0m
+[0mGET /api/teachers?limit=100 [33m401[0m 0.119 ms - 47[0m
+[0mGET /api/announcements?limit=3 [33m401[0m 0.104 ms - 47[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 871.281 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 920.981 ms - -[0m
+[0mGET /api/notifications?limit=5 [0m-[0m - ms - -[0m
+[0mGET /api/notifications?limit=5 [32m200[0m 625.008 ms - 101[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 470.535 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 133.648 ms - -[0m
+[0mGET /api/notifications?limit=5 [36m304[0m 130.217 ms - -[0m
