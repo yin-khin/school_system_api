@@ -4,6 +4,7 @@ const { protect } = require('../middleware/auth');
 const {
   getAttendance,
   getAttendanceByClassAndDate,
+  getAttendanceRange,
   createAttendance,
   updateAttendance,
   deleteAttendance,
@@ -13,6 +14,7 @@ const {
 router.use(protect);
 
 router.get('/', getAttendance);
+router.get('/range', getAttendanceRange);
 router.get('/class/:classId/date/:date', getAttendanceByClassAndDate);
 router.get('/student/:studentId/report', getStudentAttendanceReport);
 router.post('/', createAttendance);

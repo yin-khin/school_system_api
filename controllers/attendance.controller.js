@@ -194,11 +194,56 @@ const getStudentAttendanceReport = async (req, res) => {
   }
 };
 
+// @desc    Get attendance records for a date range (no pagination)
+// @route   GET /api/attendance/range
+// @access  Private
+const getAttendanceRange = async (req, res) => {
+  try {
+    const { class_id, student_id, start_date, end_date } = req.query;
+
+    const where = {};
+    if (class_id) where.class_id = class_id;
+    if (student_id) where.student_id = student_id;
+    if (start_date && end_date) {
+      where.date = { [Op.between]: [start_date, end_date] };
+    }
+
+    const records = await Attendance.findAll({
+      where,
+      include: [
+        {
+          model: Student,
+          as: "Student",
+          attributes: [
+            "id",
+            "student_id",
+            "first_name",
+            "last_name",
+            "photo",
+            "roll_number",
+          ],
+        },
+        { model: Class, as: "Class", attributes: ["id", "name", "code"] },
+      ],
+      order: [
+        ["date", "ASC"],
+        ["student_id", "ASC"],
+      ],
+    });
+
+    res.json({ success: true, data: records });
+  } catch (error) {
+    console.error("Get attendance range error:", error);
+    res.status(500).json({ message: "Server error", error: error.message });
+  }
+};
+
 module.exports = {
   getAttendance,
   getAttendanceByClassAndDate,
+  getAttendanceRange,
   createAttendance,
   updateAttendance,
   deleteAttendance,
-  getStudentAttendanceReport
+  getStudentAttendanceReport,
 };
