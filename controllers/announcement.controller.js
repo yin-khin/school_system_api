@@ -3,6 +3,40 @@ const { Op } = require("sequelize");
 const path = require("path");
 const fs = require("fs");
 
+// Convert an uploaded file into a base64 data URI and remove the temp file.
+// Render's free tier has an EPHEMERAL filesystem that wipes the local "uploads"
+// disk on every restart/redeploy, which is why photos used to disappear.
+// Storing the bytes in Postgres keeps announcement photos persistent.
+const readImageDataUri = (file) => {
+  if (!file) return null;
+  const filePath = path.join(__dirname, "../uploads", file.filename);
+  const mime = file.mimetype || "image/jpeg";
+  let buffer;
+  try {
+    buffer = fs.readFileSync(filePath);
+  } catch (error) {
+    console.error("Could not read uploaded announcement image:", error.message);
+    return null;
+  }
+  try {
+    fs.unlinkSync(filePath); // no longer needed on disk
+  } catch (error) {
+    // ignore cleanup failure
+  }
+  return `data:${mime};base64,${buffer.toString("base64")}`;
+};
+
+// Safely attempt to delete an old photo file from disk (if it exists).
+const removeImageFile = (photo) => {
+  if (!photo || photo.startsWith("data:")) return; // base64 lives in DB only
+  const filePath = path.join(__dirname, "../uploads", photo);
+  try {
+    if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
+  } catch (error) {
+    // ignore
+  }
+};
+
 // @desc    Get all announcements
 // @route   GET /api/announcements
 // @access  Private
@@ -82,7 +116,7 @@ const createAnnouncement = async (req, res) => {
       audience: audience || "all",
       published_by: req.user.id,
       status: status || "published",
-      photo: req.file ? req.file.filename : null,
+      photo: req.file ? readImageDataUri(req.file) : null,
     });
 
     res.status(201).json({ success: true, data: announcement });
@@ -109,30 +143,16 @@ const updateAnnouncement = async (req, res) => {
       delete updateData.photo;
     }
     if (req.body.remove_photo === "true" && !req.file && announcement.photo) {
-      const oldPhotoPath = path.join(
-        __dirname,
-        "../uploads",
-        announcement.photo,
-      );
-      if (fs.existsSync(oldPhotoPath)) {
-        fs.unlinkSync(oldPhotoPath);
-      }
+      removeImageFile(announcement.photo);
       updateData.photo = null;
     }
     if (req.file) {
       // Delete old photo if exists
-      if (announcement.photo) {
-        const oldPhotoPath = path.join(
-          __dirname,
-          "../uploads",
-          announcement.photo,
-        );
-        if (fs.existsSync(oldPhotoPath)) {
-          fs.unlinkSync(oldPhotoPath);
-        }
-      }
-      updateData.photo = req.file.filename;
+      removeImageFile(announcement.photo);
+      updateData.photo = readImageDataUri(req.file);
     }
+    // If no new file and no remove flag, keep the existing stored photo
+    // (announcement.photo is preserved because updateData doesn't override it).
 
     await announcement.update(updateData);
 
@@ -155,12 +175,7 @@ const deleteAnnouncement = async (req, res) => {
     }
 
     // Delete photo file if exists
-    if (announcement.photo) {
-      const photoPath = path.join(__dirname, "../uploads", announcement.photo);
-      if (fs.existsSync(photoPath)) {
-        fs.unlinkSync(photoPath);
-      }
-    }
+    removeImageFile(announcement.photo);
 
     await announcement.destroy();
 
@@ -183,10 +198,7 @@ const deleteAnnouncementPhoto = async (req, res) => {
     }
 
     if (announcement.photo) {
-      const photoPath = path.join(__dirname, "../uploads", announcement.photo);
-      if (fs.existsSync(photoPath)) {
-        fs.unlinkSync(photoPath);
-      }
+      removeImageFile(announcement.photo);
     }
 
     await announcement.update({ photo: null });

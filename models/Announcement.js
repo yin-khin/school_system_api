@@ -16,7 +16,10 @@ const Announcement = sequelize.define('Announcement', {
     allowNull: false
   },
   photo: {
-    type: DataTypes.STRING
+    // TEXT (not STRING) so it can hold a base64 data URI. Storing image bytes
+    // in Postgres keeps announcement photos persistent on Render instead of the
+    // ephemeral local "uploads" disk which is wiped on restart/redeploy.
+    type: DataTypes.TEXT
   },
   type: {
     type: DataTypes.ENUM('general', 'exam', 'holiday', 'event', 'notice', 'urgent'),
