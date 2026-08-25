@@ -31,7 +31,10 @@ const SiteSetting = sequelize.define(
       allowNull: false,
     },
     hero_image: {
-      type: DataTypes.STRING,
+      // TEXT (not STRING) so it can hold a base64 data URI of the photo.
+      // Storing image bytes in Postgres keeps hero photos persistent on Render
+      // instead of relying on the ephemeral local "uploads" disk.
+      type: DataTypes.TEXT,
       allowNull: true,
     },
   },

@@ -1,4 +1,6 @@
 const { Op } = require("sequelize");
+const fs = require("fs");
+const path = require("path");
 const { SiteSetting } = require("../models");
 
 const defaults = (index = 1) => ({
@@ -11,6 +13,30 @@ const defaults = (index = 1) => ({
   years_of_excellence: process.env.SCHOOL_YEARS || "25+",
   hero_image: process.env.SCHOOL_HERO_IMAGE || null,
 });
+
+// Convert an uploaded file into a base64 data URI and remove the temporary file.
+// Render's free tier has an EPHEMERAL filesystem that wipes the local "uploads"
+// disk on every restart/redeploy, which is why photos used to disappear. Storing
+// the image bytes in the persistent Postgres database keeps hero photos visible
+// forever until the slide is deleted.
+const readImageDataUri = (file) => {
+  if (!file) return null;
+  const filePath = path.join(__dirname, "../uploads", file.filename);
+  const mime = file.mimetype || "image/jpeg";
+  let buffer;
+  try {
+    buffer = fs.readFileSync(filePath);
+  } catch (error) {
+    console.error("Could not read uploaded hero image:", error.message);
+    return null;
+  }
+  try {
+    fs.unlinkSync(filePath); // no longer needed on disk
+  } catch (error) {
+    // ignore cleanup failure
+  }
+  return `data:${mime};base64,${buffer.toString("base64")}`;
+};
 
 const toPublicData = (setting) => ({
   id: setting.id,
@@ -43,8 +69,15 @@ const updateSite = async (req, res) => {
       motto: req.body.motto,
       intro: req.body.intro,
       years_of_excellence: req.body.yearsOfExcellence,
-      hero_image: req.file?.filename || req.body.heroImage || null,
     };
+
+    // A new uploaded file becomes a base64 data URI persisted in the DB.
+    // Otherwise keep whatever hero image is already stored.
+    if (req.file) {
+      values.hero_image = readImageDataUri(req.file);
+    } else if (req.body.heroImage) {
+      values.hero_image = String(req.body.heroImage).trim();
+    }
 
     if (
       !values.school_name ||
@@ -82,8 +115,14 @@ const createSite = async (req, res) => {
       motto: req.body.motto,
       intro: req.body.intro,
       years_of_excellence: req.body.yearsOfExcellence,
-      hero_image: req.file?.filename || req.body.heroImage || null,
     };
+
+    if (req.file) {
+      values.hero_image = readImageDataUri(req.file);
+    } else if (req.body.heroImage) {
+      values.hero_image = String(req.body.heroImage).trim();
+    }
+
     if (
       !values.school_name ||
       !values.motto ||
