@@ -246,6 +246,7 @@
 
 
 const { Staff, User } = require("../models");
+const { toDataUri } = require("../utils/photoStorage");
 const { Op } = require("sequelize");
 const path = require("path");
 const fs = require("fs");
@@ -390,7 +391,7 @@ const createStaff = async (req, res) => {
       address: blankToNull(address),
       joining_date: blankToNull(joining_date),
       salary: blankToNull(salary),
-      photo: req.file ? req.file.filename : null,
+      photo: req.file ? await toDataUri(req.file) : null,
     });
 
     res.status(201).json({ success: true, data: staff });
@@ -434,7 +435,7 @@ const updateStaff = async (req, res) => {
           fs.unlinkSync(oldPhotoPath);
         }
       }
-      updateData.photo = req.file.filename;
+      updateData.photo = await toDataUri(req.file);
     }
 
     await staff.update(updateData);
