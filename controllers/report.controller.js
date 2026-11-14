@@ -382,8 +382,7 @@
 const { Student, Teacher, Class, Attendance, Fee, Payment, Mark, Exam, Subject } = require('../models');
 const { Op } = require('sequelize');
 
-// Allowed status values per report. Filtering by a value that is not in the
-// database enum (e.g. "paid" on students) makes Postgres throw a 500 error.
+
 const STUDENT_STATUSES = ['active', 'inactive', 'graduated', 'transferred', 'suspended'];
 const TEACHER_STATUSES = ['active', 'inactive', 'on_leave', 'resigned'];
 const FEE_STATUSES = ['pending', 'partial', 'paid', 'overdue', 'cancelled'];
@@ -391,15 +390,13 @@ const FEE_STATUSES = ['pending', 'partial', 'paid', 'overdue', 'cancelled'];
 const normalizeStatus = (status) => (status ? String(status).toLowerCase() : '');
 const num = (value) => parseFloat(value) || 0;
 
-// @desc    Get student list report
-// @route   GET /api/reports/students
-// @access  Private
+
 const getStudentReport = async (req, res) => {
   try {
     const { class_id } = req.query;
     const status = normalizeStatus(req.query.status);
 
-    // A status that students cannot have matches nothing
+
     if (status && !STUDENT_STATUSES.includes(status)) {
       return res.json({ success: true, data: [] });
     }
@@ -423,9 +420,7 @@ const getStudentReport = async (req, res) => {
   }
 };
 
-// @desc    Get attendance report
-// @route   GET /api/reports/attendance
-// @access  Private
+
 const getAttendanceReport = async (req, res) => {
   try {
     const { start_date, end_date, class_id } = req.query;
@@ -452,9 +447,6 @@ const getAttendanceReport = async (req, res) => {
   }
 };
 
-// @desc    Get fee report
-// @route   GET /api/reports/fees
-// @access  Private
 const getFeeReport = async (req, res) => {
   try {
     const { start_date, end_date, class_id } = req.query;
@@ -512,9 +504,7 @@ const getFeeReport = async (req, res) => {
   }
 };
 
-// @desc    Get academic report
-// @route   GET /api/reports/academic
-// @access  Private
+
 const getAcademicReport = async (req, res) => {
   try {
     const { exam_id, class_id } = req.query;
