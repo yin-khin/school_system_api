@@ -1,4 +1,5 @@
 const { Parent, Student, User } = require("../models");
+const { toDataUri } = require("../utils/photoStorage");
 const { Op } = require("sequelize");
 const path = require("path");
 const fs = require("fs");
@@ -115,7 +116,7 @@ const createParent = async (req, res) => {
       email,
       address,
       occupation,
-      photo: req.file ? req.file.filename : null,
+      photo: req.file ? await toDataUri(req.file) : null,
     });
 
     res.status(201).json({ success: true, data: parent });
@@ -156,7 +157,7 @@ const updateParent = async (req, res) => {
           fs.unlinkSync(oldPhotoPath);
         }
       }
-      updateData.photo = req.file.filename;
+      updateData.photo = await toDataUri(req.file);
     }
 
     await parent.update(updateData);
